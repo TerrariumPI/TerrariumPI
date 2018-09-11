@@ -2,8 +2,8 @@
  Python Project Template
 =========================
 
-.. image:: https://travis-ci.org/infrascloudy/python-project-template.svg?branch=master
-    :target: https://travis-ci.org/infrascloudy/python-project-template
+.. image:: https://travis-ci.org/TerrariumPI/TerrariumPI.svg?branch=master
+    :target: https://travis-ci.org/TerrariumPI/TerrariumPI
 
 This project provides a best-practices template Python project which integrates several different tools. It saves you work by setting up a number of things, including documentation, code checking, and unit test runners.
 
