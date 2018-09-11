@@ -6,6 +6,7 @@ env:
   # - TOXENV=pypy
   # - TOXENV=docs
 install:
+  - pip install --upgrade pip setuptools wheel importlib
   - pip install tox
 script:
 - tox
