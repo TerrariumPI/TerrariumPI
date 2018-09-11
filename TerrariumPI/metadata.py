@@ -8,7 +8,7 @@ Information describing the project.
 package = 'TerrariumPI'
 project = 'Software for cheap home automation of your reptile terrarium or any other enclosed environment'
 project_no_spaces = project.replace(' ', '')
-version = '4.0'
+version = '4.0.1'
 description = 'It does cool things with sensors in your terrarium'
 authors = ['allanice001']
 authors_string = ', '.join(authors)

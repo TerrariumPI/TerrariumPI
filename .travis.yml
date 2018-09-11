@@ -2,12 +2,14 @@ language: python
 dist: trusty
 python: 3.6
 env:
-- TOXENV=py36
+  - TOXENV=py36
 install:
-- pip install --upgrade pip setuptools wheel
-- pip install tox
+  - pip install --upgrade pip setuptools wheel
+  - pip install tox
+before_script:
+  - travis cache --delete
 script:
-- tox
+  - tox
 deploy:
   provider: pypi
   user: dragonmaster
