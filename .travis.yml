@@ -1,0 +1,11 @@
+language: python
+dist: trusty
+python: 2.7
+env:
+  - TOXENV=py36
+  # - TOXENV=pypy
+  # - TOXENV=docs
+install:
+  - pip install tox
+script:
+- tox
