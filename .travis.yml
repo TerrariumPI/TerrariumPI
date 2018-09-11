@@ -2,11 +2,14 @@ language: python
 dist: trusty
 python: 3.6
 env:
-  - TOXENV=py36
-  # - TOXENV=pypy
-  # - TOXENV=docs
+- TOXENV=py36
 install:
-  - pip install --upgrade pip setuptools wheel
-  - pip install tox
+- pip install --upgrade pip setuptools wheel
+- pip install tox
 script:
 - tox
+deploy:
+  provider: pypi
+  user: dragonmaster
+  password:
+    secure: LEjbFBsB4MXj6Vddro545uqSOQG57noKCfAzhwqePiURr0Ev1AuMfYnYgNVbutQoctDLGrZZ5ylIxuK6eH+J1dv5DZrA1Rq3wV22/HbuSrf8ydhLamV0BO6VYUUDcFS7D4ln2MbvoHGbTtLzm5thk6SW82b3JtPxWv4gak4VJPrqZuo0oz4RMoSL0+0nMkGCMHWRy+m0FbklJYVDKjG9exEU7FKsQvyL1T4KRWjUZaNZQ7wcvkwrDgO2WwPulknnDRPB+TFpTZatidG6gn4DAs6MkyeDM1SfQEgWeXy+7wDhRfcC3v2wXWC646ZVwK3nHxCSraS4IP+4wrpKpmKJhuSuaNifmXn9SchSbdf6Ii9qNmMDHENjhdK52Ew+58l9gLzTDM5ThO9gCgIfgpIz2v3NU9x/3221/WOM2FgWE2IbgcC99XvlmkU058QbLPKgoQIg5BMUQ+SjPZaP1FuBqA7kmRT6AIhLK5vTSBk8ltAQ9OWkrhEY795Vi4me5a51y/P12Tap79oGLLHPSRtGbAOp7/Tb6mgwicZTLpsMQ4oHQSQNjWmmShdk7vakdr8HCYvsocCD+uRo1M3b61YmKylXX+5rmVb5lqyq49qeaSKG/iwjM/EyhjwY1fAMGFa6Krj6arw6tQp1o+fEjk0hjordTc6o+oRrVVSeNJdtxlQ=
