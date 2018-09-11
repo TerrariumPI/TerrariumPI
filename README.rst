@@ -5,6 +5,10 @@
 .. image:: https://travis-ci.org/TerrariumPI/TerrariumPI.svg?branch=master
     :target: https://travis-ci.org/TerrariumPI/TerrariumPI
 
+.. image:: https://readthedocs.org/projects/terrariumpi/badge/?version=latest
+    :target: https://terrariumpi.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
 This project provides a best-practices template Python project which integrates several different tools. It saves you work by setting up a number of things, including documentation, code checking, and unit test runners.
 
 As it is an all-in-one solution, the tools used are rather opinionated. They include:
